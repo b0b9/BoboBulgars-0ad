@@ -1,0 +1,24 @@
+{
+	"genericName": "Hunting",
+	"cost": {
+		"food": 200
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_town" },
+			{ "civ": "inca" }
+		]
+	},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "upgrade_elite.png",
+        "researchTime": 50,
+	"tooltip": "Soldiers +50% health; +2 resistance.",
+	"modifications": [
+		{ "value": "Health/Max", "multiply": 1.50},
+		{ "value": "Resistance/Entity/Damage/Hack", "add": 2},
+		{ "value": "Resistance/Entity/Damage/Pierce", "add": 2},
+		{ "value": "Resistance/Entity/Damage/Crush", "add": 2}
+
+	],
+	"affects": ["Soldier"]
+}

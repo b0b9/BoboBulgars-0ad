@@ -1,0 +1,12 @@
+{
+	"type": "range",
+	"radius": 100,
+	"affects": ["Worker"],
+	"modifications": [
+		{ "value": "ResourceGatherer/BaseSpeed", "multiply": 1.5 }
+	],
+	"auraName": "Inspiration from Apu Inti",
+	"auraDescription": "Gatherers +10% gathering rate for every nearby Acclas.",
+	"overlayIcon": "art/textures/ui/session/auras/buildgather_bonus.png",
+	"stackable": true
+}

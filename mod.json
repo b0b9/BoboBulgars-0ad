@@ -1,0 +1,8 @@
+{
+	"name": "bobobulgars",
+	"version": "0.26.0",
+	"label": "BoboBulgars",
+	"url": "https://github.com/0ADMods/incas-0ad",
+	"description": "As a bulgarian i added bulgars to 0ad",
+	"dependencies": ["0ad=0.0.26"]
+}

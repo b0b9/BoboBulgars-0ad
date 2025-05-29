@@ -1,0 +1,25 @@
+{
+	"genericName": "Ghaterings",
+	"cost": {
+		"food": 350,
+		"metal": 100,
+		"wood": 200
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_town" },
+			{ "civ": "inca" }
+		]
+	},
+	"requirementsTooltip": "Unlocked in Town Phase.",
+	"icon": "icon_ghr.png",
+	"researchTime": 150,
+	"tooltip": "All +50% health; +5 resistance.",
+	"modifications": [
+		{ "value": "Health/Max", "multiply": 1.50 },
+		{ "value": "Resistance/Entity/Damage/Hack", "add": 5 },
+		{ "value": "Cost/BuildTime", "multiply": 0.5 }
+	],
+	"affects": ["Soldier"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

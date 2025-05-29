@@ -1,0 +1,22 @@
+{
+	"genericName": "Spliting",
+	"description": "The Bulgars split in 600 AD,the ones creating modern day Bulgaria went south creating wonderfull cites and fortrreses.",
+	"cost": {
+		"food": 500,
+		"stone": 300
+	},
+	"requirements": {
+		"all": [
+			{ "tech": "phase_city" }
+		]
+	},
+	"requirementsTooltip": "Unlocked in City Phase.",
+	"icon": "parade_of_daphne.png",
+	"researchTime": 60,
+	"tooltip": "Structures -50% training time.",
+	"modifications": [
+		{ "value": "Cost/BuildTime", "multiply": 0.5 }
+	],
+	"affects": ["Structures"],
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}

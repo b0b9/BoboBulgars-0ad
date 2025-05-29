@@ -1,0 +1,66 @@
+﻿{
+	"Code": "inca",
+	"Culture": "inca",
+	"Region":[ "andes" ],
+	"Music":[
+			{"File":"Land_Between_Rivers.ogg", "Type":"peace"},
+			{"File":"Upstart_King.ogg", "Type":"peace"},
+			{"File":"wind.ogg", "Type":"peace"},
+			{"File":"Highland_Mist.ogg", "Type":"peace"},
+			{"File":"The_Hellespont.ogg", "Type":"peace"}
+		],
+	"CivBonuses":
+	[
+		
+	],
+	"CivBonuses": [],
+	"WallSets": [
+		"structures/wallset_palisade",
+		"structures/gaul/wallset_stone"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/{civ}/civic_centre"
+		},
+		{
+			"Template": "units/inca/support_female_citizen",
+			"Count": 5
+		},
+		{
+			"Template": "units/inca/infantry_maceman_b",
+			"Count": 0
+		},
+		{
+			"Template": "units/inca/infantry_slinger_b",
+			"Count": 0
+		},
+		{
+			"Template": "units/inca/infantry_javelineer_b",
+			"Count": 0
+		},
+		{
+			"Template": "units/inca/infantry_chaski",
+			"Count": 1
+		}
+	],
+	"AINames":
+	[
+		"Kан Ернак",
+		"Kан Атила",
+		"Kан Кубрат",
+		"Kан Аспарух",
+		"Кан Бобо",
+		"Чар Борис"
+	],
+	"SkirmishReplacements":
+	{
+	"skirmish/units/default_infantry_ranged_b": "units/inca/champion_infantry_archer",
+	"skirmish/units/default_infantry_melee_b": "units/inca/champion_infantry_archer",
+	"skirmish/units/special_starting_unit":"units/inca/champion_infantry_archer",
+	"skirmish/structures/default_house_10": "structures/{civ}/house",
+	"skirmish/units/default_cavalry": "units/inca/champion_infantry_archer",
+	"skirmish/units/default_ship_trireme":"units/inca/ship_bireme"
+	},
+	"SelectableInGameSetup": true
+}

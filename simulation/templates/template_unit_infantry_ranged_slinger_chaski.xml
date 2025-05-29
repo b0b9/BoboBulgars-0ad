@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="horse_archer">
+  <!-- <Attack>
+    <Ranged>
+	  <AttackName>Slinger</AttackName>
+      <Damage>
+        <Hack>5.0</Hack>
+        <Pierce>10.0</Pierce>
+        <Crush>0.4</Crush>
+      </Damage>
+      <MaxRange>60.0</MaxRange>
+      <MinRange>0.0</MinRange>
+      <PrepareTime>100</PrepareTime>
+      <RepeatTime>50</RepeatTime>
+      <Projectile>
+        <Speed>50.0</Speed>
+        <Spread>3.5</Spread>
+        <Gravity>29.81</Gravity>
+      </Projectile>
+    </Ranged>
+  </Attack> -->
+  <Cost>
+    <Resources>
+      <stone>30</stone>
+      <wood>20</wood>
+    </Resources>
+  </Cost>
+  <Identity>
+    <VisibleClasses datatype="tokens">Citizen Soldier Cavalry</VisibleClasses>
+    <GenericName>Slinger</GenericName>
+  </Identity>
+   <Resistance>
+    <Entity>
+      <Damage>
+        <Hack op="add">0.5</Hack>
+        <Pierce op="add">2</Pierce>
+      </Damage>
+    </Entity>
+  </Resistance>
+  <Loot>
+    <stone>5</stone>
+  </Loot>
+    <Promotion disable=""/>
+  <UnitMotion>
+    <WalkSpeed op="mul">3.0</WalkSpeed>
+  </UnitMotion>
+  <Sound>
+    <SoundGroups>
+      <attack_ranged>attack/weapon/sling_attack.xml</attack_ranged>
+    </SoundGroups>
+  </Sound>
+</Entity>
