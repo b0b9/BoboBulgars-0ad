@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_cavalry_ranged_archer">
+<Entity parent="template_unit_cavalry_ranged_archer_bulgar">
   <Identity>
     <Civ>inca</Civ>
     <SelectionGroupName>units/han/cavalry_archer_b</SelectionGroupName>
     <SpecificName>Коннен стрелец</SpecificName>
     <Icon>units/inca/cavalry_archer.png</Icon>
-    <RequiredTechnology>phase_town</RequiredTechnology>
+    <RequiredTechnology>phase_village</RequiredTechnology>
   </Identity>
+
   <Promotion>
     <Entity>units/han/cavalry_archer_a</Entity>
   </Promotion>
