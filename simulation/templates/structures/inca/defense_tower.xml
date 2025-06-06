@@ -12,7 +12,7 @@
     <Static width="7.5" depth="7.5"/>
   </Obstruction>
   <StatusBars>
-    <HeightOffset>21.0</HeightOffset>
+    <HeightOffset>10.0</HeightOffset>
   </StatusBars>
   <VisualActor>
     <Actor>structures/incas/inca_scout_tower.xml</Actor>

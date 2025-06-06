@@ -2,7 +2,7 @@
 <Entity parent="template_unit_ship_fishing">
   <Identity>
     <Civ>inca</Civ>
-    <SpecificName>Wampu chawaq</SpecificName>
+    <SpecificName>риболовна лодка</SpecificName>
     <Icon>units/inca_ship_fishing.png</Icon>
   </Identity>
   <VisualActor>

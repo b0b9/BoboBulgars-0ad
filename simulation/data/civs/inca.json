@@ -13,10 +13,16 @@
 	[
 		
 	],
-	"CivBonuses": [],
+	"CivBonuses": [
+	 		{
+			"Name": "Starting Walls",
+			"History": "With exception to alluvial plains and river valleys, stone is abundant in the Iberian Peninsula and was greatly used in construction of structures of all types.",
+			"Description": "Iberians start with City Walls around their base on most maps."
+		}
+	],
 	"WallSets": [
 		"structures/wallset_palisade",
-		"structures/gaul/wallset_stone"
+		"structures/iber/wallset_stone"
 	],
 	"StartEntities":
 	[
@@ -55,12 +61,17 @@
 	],
 	"SkirmishReplacements":
 	{
-	"skirmish/units/default_infantry_ranged_b": "units/inca/champion_infantry_archer",
-	"skirmish/units/default_infantry_melee_b": "units/inca/champion_infantry_archer",
+	"skirmish/units/default_infantry_ranged_b": "units/inca/infantry_chaski",
+	"skirmish/units/default_infantry_melee_b": "units/inca/infantry_chaski",
 	"skirmish/units/special_starting_unit":"units/inca/champion_infantry_archer",
 	"skirmish/structures/default_house_10": "structures/{civ}/house",
 	"skirmish/units/default_cavalry": "units/inca/champion_infantry_archer",
-	"skirmish/units/default_ship_trireme":"units/inca/ship_bireme"
+	"skirmish/units/default_ship_trireme":"units/inca/ship_bireme",
+	"skirmish/structures/iber_wall_short": "structures/han/wall_short",
+	"skirmish/structures/iber_wall_medium": "structures/han/wall_medium",
+	"skirmish/structures/iber_wall_long": "structures/han/wall_long",
+	"skirmish/structures/iber_wall_gate": "structures/han/wall_gate",
+	"skirmish/structures/iber_wall_tower": "structures/han/wall_tower"
 	},
 	"SelectableInGameSetup": true
 }

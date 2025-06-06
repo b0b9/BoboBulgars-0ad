@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_structure_military_barracks">
+<Entity parent="template_structure_military_barracks_bul">
   <Cost>
     <Resources>
-      <wood>100</wood>
-      <stone>150</stone>
+      <wood>50</wood>
+      <stone>200</stone>
     </Resources>
   </Cost>
   <Footprint>
@@ -25,9 +25,7 @@
   </Obstruction>
     <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/infantry_merc_archer_a
-      units/{civ}/infantry_spearman_b
-      units/{civ}/infantry_axeman_b 
+      units/{civ}/infantry_chaski
       units/{civ}/champion_infantry_archer
     </Entities>
   </Trainer>

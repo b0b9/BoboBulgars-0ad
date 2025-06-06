@@ -11,10 +11,10 @@
       <RepeatTime>250</RepeatTime>
       <Projectile>
         <Speed>500</Speed>
-        <Spread>2.5</Spread>
-        <Gravity>50</Gravity>
+        <Spread>2.0</Spread>
+        <Gravity>40</Gravity>
         <FriendlyFire>true</FriendlyFire>
-        <LaunchPoint y="5"/>
+        <LaunchPoint y="6"/>
       </Projectile>
       <PreferredClasses datatype="tokens">Human</PreferredClasses>
     </Ranged>
@@ -35,7 +35,7 @@
     </SoundGroups>
   </Sound>
   <UnitMotion>
-    <WalkSpeed op="mul">0.2.4</WalkSpeed>
-    <Acceleration op="mul">090</Acceleration>
+    <WalkSpeed op="mul">1.5</WalkSpeed>
+    <Acceleration op="mul">100</Acceleration>
   </UnitMotion>
 </Entity>

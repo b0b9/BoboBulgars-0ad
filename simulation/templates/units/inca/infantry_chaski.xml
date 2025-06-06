@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_ranged_slinger_chaski">
+<Entity parent="template_unit_cavalry_melee_spearman">
   <Identity>
     <Civ>inca</Civ>
-    <SelectionGroupName>units/inca/chaski</SelectionGroupName>
-    <GenericName>Quíchua Runner</GenericName>
-    <SpecificName>Chaski</SpecificName>
-    <Icon>units/inca_chaski.png</Icon>
+    <SelectionGroupName>units/han/cavalry_spearman_b</SelectionGroupName>
+    <SpecificName>коннен копиец你</SpecificName>
+    <Icon>units/han/cavalry_spearman.png</Icon>
+    <RequiredTechnology>phase_village</RequiredTechnology>
   </Identity>
+  <Promotion>
+    <Entity>units/han/cavalry_spearman_a</Entity>
+  </Promotion>
   <VisualActor>
-    <Actor>units/incas/infantry_chaski.xml</Actor>
+    <Actor>units/han/cavalry_spearman_b_m.xml</Actor>
   </VisualActor>
 </Entity>
