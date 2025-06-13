@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_formation">
+  <Formation>
+    <Icon>formations/shieldwall.png</Icon>
+    <RequiredMemberCount>8</RequiredMemberCount>
+    <DisabledTooltip>8 melee infantry units required</DisabledTooltip>
+		<FormationName>Divisons</FormationName>
+		<SpeedMultiplier>0.3</SpeedMultiplier>
+    <UnitSeparationWidthMultiplier>0.8</UnitSeparationWidthMultiplier>
+    <UnitSeparationDepthMultiplier>0.4</UnitSeparationDepthMultiplier>
+    <WidthDepthRatio>5</WidthDepthRatio>
+		<AnimationVariants>
+        1..-1,1..-1: idle_testudo_front
+        1..-1,1..-1: walk_testudo_front
+		</AnimationVariants>
+	</Formation>
+  <FormationAttack>
+    <CanAttackAsFormation>true</CanAttackAsFormation>
+  </FormationAttack>
+</Entity>

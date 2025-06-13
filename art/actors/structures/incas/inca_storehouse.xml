@@ -14,7 +14,7 @@
         <texture file="structural/inca_struct.png" name="baseTex"/>
         <texture file="structural/inca_struct_spec.png" name="specTex"/>
         <texture file="structural/inca_struct_norm.png" name="normTex"/>
-                <texture file="structural/ao/inca_storehouse_ao.png" name="aoTex"/>
+                <texture file="structural/ao/inca_struct_001.png" name="aoTex"/>
       </textures>
     </variant>
   </group>

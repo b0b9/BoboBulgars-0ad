@@ -3,11 +3,26 @@
 	"Culture": "inca",
 	"Region":[ "andes" ],
 	"Music":[
-			{"File":"Land_Between_Rivers.ogg", "Type":"peace"},
-			{"File":"Upstart_King.ogg", "Type":"peace"},
-			{"File":"wind.ogg", "Type":"peace"},
-			{"File":"Highland_Mist.ogg", "Type":"peace"},
-			{"File":"The_Hellespont.ogg", "Type":"peace"}
+	{
+			"File": "wind.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Land_Between_Rivers.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "Upstart_King.ogg",
+			"Type": "peace"
+		},
+		{
+			"File": "The_Hellespont.ogg",
+			"Type": "peace"
+		},
+				{
+			"File": "Highland_Mist.ogg",
+			"Type": "peace"
+		}
 		],
 	"CivBonuses":
 	[
@@ -61,7 +76,7 @@
 	],
 	"SkirmishReplacements":
 	{
-	"skirmish/units/default_infantry_ranged_b": "units/inca/infantry_chaski",
+	"skirmish/units/default_infantry_ranged_b": "units/inca/champion_infantry_archer",
 	"skirmish/units/default_infantry_melee_b": "units/inca/infantry_chaski",
 	"skirmish/units/special_starting_unit":"units/inca/champion_infantry_archer",
 	"skirmish/structures/default_house_10": "structures/{civ}/house",

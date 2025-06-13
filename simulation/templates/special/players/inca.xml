@@ -11,7 +11,7 @@
   </Identity>
   <Player>
     <Formations datatype="tokens">
-      special/formations/phalanx
+      special/formations/sheildwall
     </Formations>
   </Player>
 </Entity>

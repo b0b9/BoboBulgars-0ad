@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scenario version="7">
+	<Environment>
+		<SkySet>desert</SkySet>
+		<SunColor r="0.74902" g="0.74902" b="0.74902"/>
+		<SunElevation angle="-0.101243"/>
+		<SunRotation angle="0.478602"/>
+		<AmbientColor r="0.501961" g="0.501961" b="0.501961"/>
+		<Fog>
+			<FogFactor>0</FogFactor>
+			<FogThickness>0.5</FogThickness>
+			<FogColor r="0.8" g="0.8" b="0.898039"/>
+		</Fog>
+		<Water>
+			<WaterBody>
+				<Type>ocean</Type>
+				<Color r="0.298039" g="0.34902" b="0.698039"/>
+				<Tint r="0.278431" g="0.298039" b="0.588235"/>
+				<Height>148.591</Height>
+				<Waviness>10</Waviness>
+				<Murkiness>0</Murkiness>
+				<WindAngle>3.14159</WindAngle>
+			</WaterBody>
+		</Water>
+		<Postproc>
+			<Brightness>0</Brightness>
+			<Contrast>1</Contrast>
+			<Saturation>0.99</Saturation>
+			<Bloom>0.1999</Bloom>
+			<PostEffect>default</PostEffect>
+		</Postproc>
+	</Environment>
+	<Camera>
+		<Position x="706.36" y="282.667" z="523.014"/>
+		<Rotation angle="-1.16059"/>
+		<Declination angle="0.610865"/>
+	</Camera>
+	<ScriptSettings><![CDATA[
+{
+  "CircularMap": true,
+  "Description": "Give an interesting description of your map.",
+  "Name": "Unnamed map",
+  "PlayerData": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "VictoryConditions": [
+    "conquest"
+  ]
+}
+]]></ScriptSettings>
+	<Entities>
+		<Entity uid="11">
+			<Template>units/han/ship_bireme</Template>
+			<Player>1</Player>
+			<Position x="877.70112" z="309.47663"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="14492"/>
+		</Entity>
+		<Entity uid="12">
+			<Template>units/han/ship_bireme</Template>
+			<Player>1</Player>
+			<Position x="885.6031" z="320.87073"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49082"/>
+		</Entity>
+		<Entity uid="13">
+			<Template>units/han/ship_bireme</Template>
+			<Player>1</Player>
+			<Position x="894.08753" z="332.76813"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="41458"/>
+		</Entity>
+		<Entity uid="14">
+			<Template>units/han/ship_bireme</Template>
+			<Player>1</Player>
+			<Position x="889.70673" z="298.2722"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49065"/>
+		</Entity>
+		<Entity uid="15">
+			<Template>units/han/ship_bireme</Template>
+			<Player>1</Player>
+			<Position x="897.37201" z="305.88962"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="6474"/>
+		</Entity>
+		<Entity uid="16">
+			<Template>units/han/ship_bireme</Template>
+			<Player>1</Player>
+			<Position x="907.33558" z="318.3495"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="61603"/>
+		</Entity>
+		<Entity uid="17">
+			<Template>units/han/ship_bireme</Template>
+			<Player>1</Player>
+			<Position x="918.60163" z="332.03248"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="61603"/>
+		</Entity>
+		<Entity uid="18">
+			<Template>units/han/ship_bireme</Template>
+			<Player>1</Player>
+			<Position x="906.75293" z="344.91498"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="62633"/>
+		</Entity>
+		<Entity uid="19">
+			<Template>units/han/ship_bireme</Template>
+			<Player>2</Player>
+			<Position x="34.67823" z="521.9596"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49241"/>
+		</Entity>
+		<Entity uid="20">
+			<Template>units/han/ship_bireme</Template>
+			<Player>2</Player>
+			<Position x="39.35047" z="535.61701"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="6477"/>
+		</Entity>
+		<Entity uid="21">
+			<Template>units/han/ship_bireme</Template>
+			<Player>2</Player>
+			<Position x="43.8794" z="547.53516"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="65498"/>
+		</Entity>
+		<Entity uid="22">
+			<Template>units/han/ship_bireme</Template>
+			<Player>2</Player>
+			<Position x="55.8282" z="519.71253"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="65498"/>
+		</Entity>
+		<Entity uid="23">
+			<Template>units/han/ship_bireme</Template>
+			<Player>2</Player>
+			<Position x="84.92756" z="533.50916"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="4237"/>
+		</Entity>
+		<Entity uid="24">
+			<Template>units/han/ship_bireme</Template>
+			<Player>2</Player>
+			<Position x="76.44385" z="524.44648"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="4237"/>
+		</Entity>
+		<Entity uid="25">
+			<Template>units/han/ship_bireme</Template>
+			<Player>3</Player>
+			<Position x="358.102" z="844.93433"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="38093"/>
+		</Entity>
+		<Entity uid="26">
+			<Template>units/han/ship_bireme</Template>
+			<Player>3</Player>
+			<Position x="374.43409" z="847.49421"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="50522"/>
+		</Entity>
+		<Entity uid="27">
+			<Template>units/han/ship_bireme</Template>
+			<Player>3</Player>
+			<Position x="387.25882" z="848.91022"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="26194"/>
+		</Entity>
+		<Entity uid="28">
+			<Template>units/han/ship_bireme</Template>
+			<Player>3</Player>
+			<Position x="368.91208" z="827.63135"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="26194"/>
+		</Entity>
+		<Entity uid="29">
+			<Template>units/han/ship_bireme</Template>
+			<Player>3</Player>
+			<Position x="382.74601" z="831.69794"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="5814"/>
+		</Entity>
+		<Entity uid="30">
+			<Template>units/han/ship_bireme</Template>
+			<Player>3</Player>
+			<Position x="397.15351" z="834.8714"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="57989"/>
+		</Entity>
+		<Entity uid="31">
+			<Template>units/han/ship_bireme</Template>
+			<Player>4</Player>
+			<Position x="107.86347" z="727.92261"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="57989"/>
+		</Entity>
+		<Entity uid="32">
+			<Template>units/han/ship_bireme</Template>
+			<Player>4</Player>
+			<Position x="125.11542" z="740.40564"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="4301"/>
+		</Entity>
+		<Entity uid="33">
+			<Template>units/han/ship_bireme</Template>
+			<Player>4</Player>
+			<Position x="151.31965" z="742.10981"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="4301"/>
+		</Entity>
+		<Entity uid="34">
+			<Template>units/han/ship_bireme</Template>
+			<Player>4</Player>
+			<Position x="138.8136" z="719.68537"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="19134"/>
+		</Entity>
+		<Entity uid="35">
+			<Template>units/han/ship_bireme</Template>
+			<Player>4</Player>
+			<Position x="159.8205" z="724.5138"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="19134"/>
+		</Entity>
+		<Entity uid="36">
+			<Template>units/han/ship_bireme</Template>
+			<Player>4</Player>
+			<Position x="177.72107" z="729.94587"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="45893"/>
+		</Entity>
+		<Entity uid="37">
+			<Template>units/han/ship_bireme</Template>
+			<Player>5</Player>
+			<Position x="722.60975" z="838.9214"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="62383"/>
+		</Entity>
+		<Entity uid="38">
+			<Template>units/han/ship_bireme</Template>
+			<Player>5</Player>
+			<Position x="734.85511" z="853.53199"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="18522"/>
+		</Entity>
+		<Entity uid="39">
+			<Template>units/han/ship_bireme</Template>
+			<Player>5</Player>
+			<Position x="749.72022" z="861.02674"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="48988"/>
+		</Entity>
+		<Entity uid="40">
+			<Template>units/han/ship_bireme</Template>
+			<Player>5</Player>
+			<Position x="732.9422" z="822.44532"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="48988"/>
+		</Entity>
+		<Entity uid="41">
+			<Template>units/han/ship_bireme</Template>
+			<Player>5</Player>
+			<Position x="752.74549" z="835.3678"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="29780"/>
+		</Entity>
+		<Entity uid="42">
+			<Template>units/han/ship_bireme</Template>
+			<Player>5</Player>
+			<Position x="770.37073" z="844.08033"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="29780"/>
+		</Entity>
+		<Entity uid="43">
+			<Template>units/han/ship_bireme</Template>
+			<Player>6</Player>
+			<Position x="485.71308" z="925.42396"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="33454"/>
+		</Entity>
+		<Entity uid="44">
+			<Template>units/han/ship_bireme</Template>
+			<Player>6</Player>
+			<Position x="511.54078" z="943.71338"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="37335"/>
+		</Entity>
+		<Entity uid="45">
+			<Template>units/han/ship_bireme</Template>
+			<Player>6</Player>
+			<Position x="509.88941" z="909.75525"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="37057"/>
+		</Entity>
+		<Entity uid="46">
+			<Template>units/han/ship_bireme</Template>
+			<Player>6</Player>
+			<Position x="527.97974" z="921.7458"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="37057"/>
+		</Entity>
+		<Entity uid="47">
+			<Template>units/han/ship_bireme</Template>
+			<Player>6</Player>
+			<Position x="542.25373" z="925.49811"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="26732"/>
+		</Entity>
+		<Entity uid="48">
+			<Template>units/han/ship_bireme</Template>
+			<Player>6</Player>
+			<Position x="545.3863" z="913.6117"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="26732"/>
+		</Entity>
+		<Entity uid="49">
+			<Template>units/han/ship_bireme</Template>
+			<Player>7</Player>
+			<Position x="898.6529" z="634.12214"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="30970"/>
+		</Entity>
+		<Entity uid="50">
+			<Template>units/han/ship_bireme</Template>
+			<Player>7</Player>
+			<Position x="906.89441" z="649.02521"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49051"/>
+		</Entity>
+		<Entity uid="51">
+			<Template>units/han/ship_bireme</Template>
+			<Player>7</Player>
+			<Position x="917.50263" z="629.91224"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="49051"/>
+		</Entity>
+		<Entity uid="52">
+			<Template>units/han/ship_bireme</Template>
+			<Player>7</Player>
+			<Position x="931.86" z="639.96271"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="34425"/>
+		</Entity>
+		<Entity uid="53">
+			<Template>units/han/ship_bireme</Template>
+			<Player>7</Player>
+			<Position x="918.55677" z="620.78803"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="34425"/>
+		</Entity>
+		<Entity uid="54">
+			<Template>units/han/ship_bireme</Template>
+			<Player>7</Player>
+			<Position x="940.7898" z="612.49225"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="59069"/>
+		</Entity>
+		<Entity uid="55">
+			<Template>units/han/ship_bireme</Template>
+			<Player>8</Player>
+			<Position x="572.96241" z="561.78473"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="37956"/>
+		</Entity>
+		<Entity uid="56">
+			<Template>units/han/ship_bireme</Template>
+			<Player>8</Player>
+			<Position x="582.78962" z="572.28412"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="8251"/>
+		</Entity>
+		<Entity uid="57">
+			<Template>units/han/ship_bireme</Template>
+			<Player>8</Player>
+			<Position x="588.30542" z="547.82636"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="8251"/>
+		</Entity>
+		<Entity uid="58">
+			<Template>units/han/ship_bireme</Template>
+			<Player>8</Player>
+			<Position x="600.22364" z="558.64356"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="2983"/>
+		</Entity>
+		<Entity uid="59">
+			<Template>units/han/ship_bireme</Template>
+			<Player>8</Player>
+			<Position x="607.99158" z="569.456"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="2983"/>
+		</Entity>
+		<Entity uid="60">
+			<Template>units/han/ship_bireme</Template>
+			<Player>8</Player>
+			<Position x="589.79188" z="582.50355"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="29588"/>
+		</Entity>
+	</Entities>
+	<Paths/>
+</Scenario>

@@ -3,36 +3,36 @@
     <Attack>
     <Ranged>
       <Damage>
-	  <Hack>0.0</Hack>
+	  <Hack>0.5</Hack>
         <Pierce>25.0</Pierce>
         <Crush>0.0</Crush>
       </Damage>
     </Ranged>
   </Attack>
     <Cost>
-    <Population>2</Population>
-    <BuildTime>10</BuildTime>
+    <Population>5</Population>
+    <BuildTime>20</BuildTime>
     <Resources>
-      <wood>110</wood>
-      <metal>50</metal>
+      <wood>100</wood>
+      <food>50</food>
     </Resources>
   </Cost>
   <GarrisonHolder>
-    <Max>22</Max>
+    <Max>20</Max>
     <EjectHealth>0</EjectHealth>
     <EjectClassesOnDestroy datatype="tokens">FemaleCitizen Infantry Healer Dog</EjectClassesOnDestroy>
     <List datatype="tokens">Support Infantry Cavalry Dog Siege Elephant</List>
     <BuffHeal>0</BuffHeal>
-    <LoadingRange>25</LoadingRange>
+    <LoadingRange>15</LoadingRange>
     <Pickup>true</Pickup>
   </GarrisonHolder>
   <Identity>
     <Civ>inca</Civ>
-    <SpecificName>Wampu awqatinkuy</SpecificName>
+    <SpecificName>воина лодка</SpecificName>
     <Icon>units/inca_ship_bireme.png</Icon>
   </Identity>
   <Health>
-    <Max>650</Max>
+    <Max>100</Max>
   </Health>
   <VisualActor>
     <Actor>structures/incas/bireme.xml</Actor>
