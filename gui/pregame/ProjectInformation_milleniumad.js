@@ -10,14 +10,14 @@ g_ProjectInformation.productDescription.caption = sprintf(
 			sprintf(
 				translate("%(title)s:\n%(subtitle)s"),
 				{
-					"title": translate("Millennium A.D."),
+					"title": translate("Bulgars 0ad"),
 					"subtitle": translate("Xýlo")
 				}
 			),
 			{ "font": "sans-bold-16" }
 		),
 		"version": translate("0 A.D. Alpha XXIV"), 
-		"warning": translate("Notice: This game is under development and many features have not been added yet.")
+		"warning": translate("Notice: This game(and mod) is under development and many features have not been added yet.")
 	}
 );
 

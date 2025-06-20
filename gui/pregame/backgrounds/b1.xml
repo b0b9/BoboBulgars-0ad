@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sprites>
+	<sprite name="b1">
+		<image
+			texture="pregame/backgrounds/b1.png"
+			fixed_h_aspect_ratio="2"
+			round_coordinates="false"
+		/>
+	</sprite>
+		<sprite name="fog">
+		<image
+			texture="pregame/backgrounds/fog.png"
+			fixed_h_aspect_ratio="2"
+			round_coordinates="false"
+		/>
+	</sprite>
+</sprites>

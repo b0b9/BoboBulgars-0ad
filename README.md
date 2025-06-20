@@ -1,4 +1,4 @@
-# BoBoBulgars
+# Bulgars 0ad
 
 ## Summary
 
