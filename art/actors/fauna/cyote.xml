@@ -4,18 +4,18 @@
   <group>
     <variant frequency="100" name="Mesh">
       <animations>
-        <animation file="quadraped/feline_idle_01.dae" name="Idle" speed="100"/>
+        <animation file="quadraped/cyote_idle.dae" name="Idle" speed="100"/>
         <animation file="quadraped/feline_attack.dae" name="attack_melee" speed="100"/>
         <animation file="quadraped/feline_attack_02.dae" name="attack_melee" speed="100"/>
-        <animation file="quadraped/cyote_walk.dae" name="walk" speed="40"/>
+        <animation file="quadraped/feline_walk.dae" name="walk" speed="40"/>
         <animation file="quadraped/feline_run.dae" name="run" speed="20"/>
         <animation file="quadraped/feline_death.dae" name="Death" speed="100"/>
       </animations>
     </variant>
   </group>
    <group>
-    <variant frequency="1" name="cyote">
-      <mesh>skeletal/cyote.dae</mesh>
+    <variant frequency="1" name="jaguar">
+      <mesh>skeletal/tiger.dae</mesh>
     </variant>
   </group>
   <group>
