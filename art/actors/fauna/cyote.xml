@@ -21,7 +21,7 @@
   <group>
       <variant frequency="75" name="Base">
       <textures>
-        <texture file="skeletal/cyote.png" name="baseTex"/>
+        <texture file="skeletal/cyote_g.png" name="baseTex"/>
       </textures>
     </variant>
     <variant frequency="25" name="Black">
