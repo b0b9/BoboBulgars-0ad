@@ -16,9 +16,7 @@
   </Obstruction>
   <Trainer>
     <Entities datatype="tokens">
-      units/{civ}/champion_guaranga_kamayuk
-       units/{civ}/mechanical_siege_ram
-       units/{civ}/champion_apusquin_rantin
+       units/{civ}/infantry_chaski
     </Entities>
   </Trainer>
   <Sound>

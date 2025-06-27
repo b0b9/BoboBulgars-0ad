@@ -4,7 +4,7 @@
   <group>
     <variant frequency="100" name="Mesh">
       <animations>
-        <animation file="quadraped/cyote_idle.dae" name="Idle" speed="100"/>
+        <animation file="quadraped/feline_idle.dae" name="Idle" speed="100"/>
         <animation file="quadraped/feline_attack.dae" name="attack_melee" speed="100"/>
         <animation file="quadraped/feline_attack_02.dae" name="attack_melee" speed="100"/>
         <animation file="quadraped/feline_walk.dae" name="walk" speed="40"/>
