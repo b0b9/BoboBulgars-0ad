@@ -16,7 +16,8 @@
   </Obstruction>
   <Trainer>
     <Entities datatype="tokens">
-       units/{civ}/infantry_chaski
+      units/{civ}/champion_infantry_archer
+      units/{civ}/infantry_chski
     </Entities>
   </Trainer>
   <Sound>
