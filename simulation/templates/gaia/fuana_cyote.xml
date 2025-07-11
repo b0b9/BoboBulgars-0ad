@@ -21,15 +21,15 @@
     <Max>20</Max>
   </Health>
   <Identity>
-    <GenericName>cyote</GenericName>
-    <SpecificName>Panthera onca</SpecificName>
+    <GenericName>Coyote</GenericName>
+    <SpecificName>Canis latrans</SpecificName>
     <Icon>gaia/fauna_cyote.png</Icon>
   </Identity>
   <Sound>
     <SoundGroups>
-      <select>actor/fauna/animal/lion_select.xml</select>
-      <attack_melee>actor/fauna/animal/lion_attack.xml</attack_melee>
-      <death>actor/fauna/animal/lion_death.xml</death>
+      <select>actor/fauna/animal/wolf_select.xml</select>
+      <attack_melee>actor/fauna/animal/wolf_attack.xml</attack_melee>
+      <death>actor/fauna/animal/wolf_death.xml</death>
     </SoundGroups>
   </Sound>
   <StatusBars>

@@ -4,8 +4,9 @@
 	"affectedPlayers": ["ExclusiveMutualAlly"],
 	"civ": "inca",
 	"modifications": [
-		{ "value": "Cost/Resources/food", "multiply": 0.7 }
+		{ "value": "Cost/Resources/food", "multiply": 0.7 },
+		{ "value": "Cost/Resources/wood", "multiply": 1.1 }
 	],
 	"auraName": "Andes mines",
-	"auraDescription": "Allied Citizen Infantry -30% food."
+	"auraDescription": "Allied Citizen Infantry -30% food.But +10% wood costs."
 }

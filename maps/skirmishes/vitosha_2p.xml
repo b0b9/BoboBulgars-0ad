@@ -32,8 +32,8 @@
 		</Postproc>
 	</Environment>
 	<Camera>
-		<Position x="441.94" y="637.677" z="376.932"/>
-		<Rotation angle="0.0413086"/>
+		<Position x="730.341" y="281.615" z="819.403"/>
+		<Rotation angle="0.0417843"/>
 		<Declination angle="0.610865"/>
 	</Camera>
 	<ScriptSettings><![CDATA[
@@ -46,6 +46,7 @@
   "LockTeams": false,
   "Name": "vitosha(4)",
   "PlayerData": [
+    null,
     {
       "StartingCamera": {
         "Position": {
@@ -63407,6 +63408,104 @@
 			<Position x="435.04978" z="431.76398"/>
 			<Orientation y="2.35621"/>
 			<Actor seed="51368"/>
+		</Entity>
+		<Entity uid="9080">
+			<Template>gaia/fuana_cyote</Template>
+			<Player>0</Player>
+			<Position x="724.1023" z="560.07331"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="57972"/>
+		</Entity>
+		<Entity uid="9081">
+			<Template>gaia/fuana_cyote</Template>
+			<Player>0</Player>
+			<Position x="678.59052" z="394.39396"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="2723"/>
+		</Entity>
+		<Entity uid="9082">
+			<Template>gaia/fuana_cyote</Template>
+			<Player>0</Player>
+			<Position x="679.06086" z="389.28702"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="20054"/>
+		</Entity>
+		<Entity uid="9083">
+			<Template>gaia/fuana_cyote</Template>
+			<Player>0</Player>
+			<Position x="675.89606" z="391.14277"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="3486"/>
+		</Entity>
+		<Entity uid="9084">
+			<Template>gaia/fuana_cyote</Template>
+			<Player>0</Player>
+			<Position x="245.9026" z="433.99808"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="3486"/>
+		</Entity>
+		<Entity uid="9085">
+			<Template>gaia/fuana_cyote</Template>
+			<Player>0</Player>
+			<Position x="248.31003" z="431.03205"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="63991"/>
+		</Entity>
+		<Entity uid="9086">
+			<Template>gaia/fuana_cyote</Template>
+			<Player>0</Player>
+			<Position x="244.68378" z="428.08042"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="2774"/>
+		</Entity>
+		<Entity uid="9087">
+			<Template>gaia/fuana_cyote</Template>
+			<Player>0</Player>
+			<Position x="318.81772" z="615.6092"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="2774"/>
+		</Entity>
+		<Entity uid="9088">
+			<Template>gaia/fuana_cyote</Template>
+			<Player>0</Player>
+			<Position x="321.38999" z="612.24988"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="19848"/>
+		</Entity>
+		<Entity uid="9089">
+			<Template>gaia/fuana_cyote</Template>
+			<Player>0</Player>
+			<Position x="318.02924" z="609.14246"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="8138"/>
+		</Entity>
+		<Entity uid="9090">
+			<Template>gaia/fuana_cyote</Template>
+			<Player>1</Player>
+			<Position x="431.9091" z="415.24674"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="53278"/>
+		</Entity>
+		<Entity uid="9091">
+			<Template>gaia/fuana_cyote</Template>
+			<Player>0</Player>
+			<Position x="746.45722" z="925.7547"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="8986"/>
+		</Entity>
+		<Entity uid="9092">
+			<Template>gaia/fuana_cyote</Template>
+			<Player>0</Player>
+			<Position x="749.66395" z="923.6927"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="7613"/>
+		</Entity>
+		<Entity uid="9093">
+			<Template>gaia/fuana_cyote</Template>
+			<Player>0</Player>
+			<Position x="745.99872" z="921.13147"/>
+			<Orientation y="2.35621"/>
+			<Actor seed="7499"/>
 		</Entity>
 	</Entities>
 	<Paths/>

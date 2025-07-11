@@ -4,26 +4,26 @@
   <group>
     <variant frequency="100" name="Mesh">
       <animations>
-        <animation file="quadraped/wolf_idle_01(cyote).dae" name="Idle" speed="100"/>
+        <animation file="quadraped/cyote_idle.dae" name="Idle" speed="100"/>
         <animation file="quadraped/cyote_attack.dae" name="attack_melee" speed="100"/>
         <animation file="quadraped/cyote_walk.dae" name="walk" speed="40"/>
-        <animation file="quadraped/feline_run.dae" name="run" speed="20"/>
-        <animation file="quadraped/feline_death.dae" name="Death" speed="100"/>
+        <animation file="quadraped/cyote_run.dae" name="run" speed="120"/>
+        <animation file="quadraped/cyote_death.dae" name="Death" speed="64"/>
       </animations>
     </variant>
   </group>
    <group>
-    <variant frequency="1" name="jaguar">
+    <variant frequency="1" name="cyote">
       <mesh>skeletal/wolf_cyote.dae</mesh>
     </variant>
   </group>
   <group>
-      <variant frequency="75" name="Base">
+      <variant frequency="50" name="Base">
       <textures>
         <texture file="skeletal/animal_wolf_grey.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="25" name="Black">
+    <variant frequency="50" name="Black">
       <textures>
         <texture file="skeletal/animal_wolf_grey.png" name="baseTex"/>
       </textures>
