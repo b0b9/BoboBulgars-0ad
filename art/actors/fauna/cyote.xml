@@ -18,12 +18,12 @@
     </variant>
   </group>
   <group>
-      <variant frequency="50" name="Base">
+      <variant frequency="99" name="Base">
       <textures>
-        <texture file="skeletal/animal_wolf_grey.png" name="baseTex"/>
+        <texture file="skeletal/cyote.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="50" name="Black">
+    <variant frequency="1" name="Black">
       <textures>
         <texture file="skeletal/animal_wolf_grey.png" name="baseTex"/>
       </textures>

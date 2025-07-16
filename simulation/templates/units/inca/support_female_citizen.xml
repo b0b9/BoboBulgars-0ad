@@ -4,6 +4,7 @@
     <Entities datatype="tokens">
       structures/inca/military_colony
       structures/inca/kancha
+      structures/inca/out_house
     </Entities>
   </Builder>
   <Identity>

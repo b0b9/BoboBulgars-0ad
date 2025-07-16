@@ -46,7 +46,7 @@
 		},
 		{
 			"Template": "units/inca/support_female_citizen",
-			"Count": 5
+			"Count": 0
 		},
 		{
 			"Template": "units/inca/infantry_maceman_b",
@@ -62,7 +62,7 @@
 		},
 		{
 			"Template": "units/inca/infantry_chaski",
-			"Count": 1
+			"Count": 5
 		}
 	],
 	"AINames":
